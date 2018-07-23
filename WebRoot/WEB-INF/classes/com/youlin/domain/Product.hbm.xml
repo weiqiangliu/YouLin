@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    <hibernate-mapping>
+    <class name="com.youlin.domain.Product" table="product">
+    <id name="pid" column="pid">
+    <generator class="native"></generator>
+    </id>
+    <property name="userid" column="userid" />
+    <property name="pusername" column="pusername" />
+    <property name="pno" column="pno" />
+    <property name="ptitle" column="ptitle" />
+    <property name="keywords" column="keywords" />
+    <property name="shortintroduce" column="shortintroduce" length="600"/>
+    <property name="publishplace" column="publishplace" />
+    <property name="publishdate" column="publishdate" />
+    <property name="contactway" column="contactway" />
+    <property name="Xplace" column="Xplace" />
+    <property name="Yplace" column="Yplace" />
+    <property name="price" column="price" />
+    
+    </class>
+    </hibernate-mapping>

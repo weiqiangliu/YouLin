@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="youlin" location="0,0" size="0,0">
+    <action name="user_*" location="0,0" size="0,0">
+      <result name="input">
+        <resourceEdge source="input" routing="0" target="Login.jsp" />
+      </result>
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="frame.jsp" />
+      </result>
+      <result name="registererror">
+        <resourceEdge source="registererror" routing="0" target="RegisterPage.jsp" />
+      </result>
+      <result name="registersuccess">
+        <resourceEdge source="registersuccess" routing="0" target="Login.jsp" />
+      </result>
+      <result name="relogin">
+        <resourceEdge source="relogin" routing="0" target="Login.jsp" />
+      </result>
+    </action>
+    <action name="product_*" location="0,0" size="0,0">
+      <result name="addsuccess">
+        <resourceEdge source="addsuccess" routing="0" target="home_blow.jsp" />
+      </result>
+      <result name="adderror">
+        <resourceEdge source="adderror" routing="0" target="addProduct.jsp" />
+      </result>
+      <result name="gotohomepage">
+        <resourceEdge source="gotohomepage" routing="0" target="home_blow.jsp" />
+      </result>
+      <result name="searchsuccess">
+        <resourceEdge source="searchsuccess" routing="0" target="home_blowforsearchkey.jsp" />
+      </result>
+      <result name="getProductSuccess">
+        <resourceEdge source="getProductSuccess" routing="0" target="Product.jsp" />
+      </result>
+      <result name="searchproductbyuserid">
+        <resourceEdge source="searchproductbyuserid" routing="0" target="myproducts.jsp" />
+      </result>
+      <result name="searchsuccessforkeywords">
+        <resourceEdge source="searchsuccessforkeywords" routing="0" target="home_blowforkeywords.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="login.jsp" path="/login.jsp" location="380,10" size="150,55" />
+  <webResource name="frame.jsp" path="/frame.jsp" location="135,780" size="150,55" />
+  <webResource name="listEmployee.jsp" path="/frame/listEmployee.jsp" location="69,605" size="150,55" />
+  <webResource name="addEmployee.jsp" path="/frame/addEmployee.jsp" location="66,430" size="150,55" />
+  <webResource name="editEmployee.jsp" path="/frame/editEmployee.jsp" location="66,255" size="150,55" />
+  <webResource name="listDep.jsp" path="/frame/listDep.jsp" location="121,955" size="150,55" />
+  <webResource name="addDepartment.jsp" path="/frame/addDepartment.jsp" location="235,1200" size="150,55" />
+  <webResource name="editDepartment.jsp" path="/frame/editDepartment.jsp" location="480,1200" size="150,55" />
+  <webResource name="Login.jsp" path="/Login.jsp" location="0,0" size="0,0" />
+  <webResource name="RegisterPage.jsp" path="/RegisterPage.jsp" location="0,0" size="0,0" />
+  <webResource name="home_blow.jsp" path="/frame/home_blow.jsp" location="0,0" size="0,0" />
+  <webResource name="addProduct.jsp" path="/frame/addProduct.jsp" location="0,0" size="0,0" />
+  <webResource name="Product.jsp" path="/frame/Product.jsp" location="0,0" size="0,0" />
+  <webResource name="myproducts.jsp" path="/frame/myproducts.jsp" location="0,0" size="0,0" />
+  <webResource name="home_blowforsearchkey.jsp" path="/frame/home_blowforsearchkey.jsp" location="0,0" size="0,0" />
+  <webResource name="home_blowforkeywords.jsp" path="/frame/home_blowforkeywords.jsp" location="0,0" size="0,0" />
+</Struts2Diagram>
+

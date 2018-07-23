@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+        <hibernate-mapping>
+    	<class name="com.youlin.domain.ProductIntroduceImage" table="productintroduceimage">
+    		<id name="imageid" column="imageid">
+    			<generator class="native" />
+    		</id>
+    		<property name="pno" column="pno"/>
+    		<property name="imagename" column="imagename"/>
+    		<property name="imagepath" column="imagepath"/>
+    		<property name="uploaddate" column="uploaddate"/>
+    	</class>
+    </hibernate-mapping>
